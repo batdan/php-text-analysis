@@ -1,14 +1,8 @@
 {
-    "name": "yooper/php-text-analysis",
+    "name": "batdan/php-text-analysis",
     "description": "PHP Text Analysis is a library for performing Information Retrieval (IR) and Natural Language Processing (NLP) tasks using the PHP language",
     "keywords": ["nlp","ir","text analysis","natural language processing", "text classification"],
     "license": "MIT",
-    "authors": [
-    {
-        "name": "yooper",
-        "email" : "dcardin2007@gmail.com"
-    }
-    ],
     "bin": ["textconsole","interactive"],
     "autoload": {
         "psr-4": {
@@ -22,9 +16,9 @@
     "require" : {
         "php": ">=7.4",
         "yooper/stop-words": "~1",
-        "symfony/console": ">= 4.4",
+        "yooper/nicknames": "~1",
         "wamania/php-stemmer": "~1",
-        "yooper/nicknames": "~1"
+        "symfony/console": ">= 4.4"
     },
     "require-dev": {
         "mockery/mockery" : "^1"
