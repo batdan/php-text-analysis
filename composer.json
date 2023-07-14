@@ -15,8 +15,8 @@
     },
     "require" : {
         "php": ">=7.4",
-        "yooper/stop-words": "~1",
-        "yooper/nicknames": "~1",
+        "batdan/stop-words": "~1",
+        "batdan/nicknames": "~1",
         "wamania/php-stemmer": "~1",
         "symfony/console": ">= 4.4"
     },
