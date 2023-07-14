@@ -27,7 +27,6 @@
         "yooper/nicknames": "~1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9",
         "mockery/mockery" : "^1"
     }
 }
