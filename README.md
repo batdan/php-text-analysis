@@ -38,7 +38,7 @@ Installation Instructions
 
 Add PHP Text Analysis to your project
 ```
-composer require yooper/php-text-analysis
+composer require batdan/php-text-analysis
 ```
 
 ### Tokenization
